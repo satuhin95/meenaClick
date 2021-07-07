@@ -1,0 +1,173 @@
+/*
+ * Author:  Lincoln Mahmud;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+.absolute {
+    position: absolute;
+}
+.hidden {
+    display: none;
+}
+.pp_wrapper {
+    width: 300px;
+    height: 250px;
+   position: relative;
+}
+.slide {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.slide_1{
+    background-image: url('images/bg.jpg');
+     background-size: 100% 100%;
+    overflow: hidden;
+}
+.slide_1 .element_1 {
+    top: 5px;
+    right: 10px;
+    width: 64px;
+    height: 26px;
+    z-index: 99;
+}
+.slide_1 .element_2 {
+    top: 46px;
+    right: 26px;
+    width: 76px;
+    height: 193px;
+    z-index: 99;
+}
+.slide_2{
+    cursor: pointer;
+}
+.slide_2 .element_1{
+    width: 163px;
+    left: 50px;
+    top: 21px;
+    height: 39px;
+}
+.slide_2 .element_2{
+    width: 163px;
+    left: 50px;
+    top: 65px;
+    height: 39px;
+}
+.slide_2 .element_3{
+    width: 163px;
+    left: 50px;
+    top: 107px;
+    height: 39px;
+}
+.slide_2 .element_4{
+    width: 202px;
+    left: 25px;
+    top: 125px;
+    bottom: 0px;
+    height: 121px;
+}
+
+.slide_3{
+   background-image: url('images/2.jpg');
+     background-size: 100% 100%;
+    cursor: pointer;
+    overflow: hidden;  
+}
+
+.slide_3 .element_1{
+    left: 45px;
+    top: 35px;
+    width: 184px;
+    height: 124px;    
+}
+.slide_3 .element_2{
+    left: 72px;
+    top: 168px;
+    width: 122px;
+    height: 32px;
+}
+.slide_3 .element_2 img{
+    height: 32px;
+}
+.slide_3 .element_3{
+    left: 105px;
+    top: 46px;
+    width: 62px;
+    height: 17px;
+}
+.slide_3 .element_4{
+    left: 95px;
+    top: 88px;
+    width: 73px;
+    height: 18px;
+}
+.slide_3 .element_5{
+    left: 95px;
+    top: 135px;
+    width: 78px;
+    height: 17px;
+}
+
+
+.form_area {
+    left: 48px;
+    top: 37px;
+    width: 178px;
+}
+.form_area .name{}
+.form_area .mobile{}
+.form_area .area{}
+
+.form_area input{
+    max-width: 88%;
+    margin-bottom: 13px;
+    padding: 5px 10px;
+    border: none;
+    margin-top: 2px;
+    font-size: 16px;
+    border-radius: 14px;
+    margin-left: 1px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.form_area .area #area{
+    width: 99%;
+    margin-bottom: 13px;
+    padding: 5px 10px;
+    border: none;
+    margin-top: 1px;
+    font-size: 16px;
+    border-radius: 14px;
+    margin-left: 1px;
+    background-color: transparent;
+    color: #fff;
+    appearance:none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+    background-color: #7f009a;
+}
+
+.form_area .area #area option{
+    background: #7f009a;
+    color: #fff;
+}
+
+.form_thanks{
+    width: 158px;
+    left: 0;
+    right: 50px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    height: 81px;
+}
